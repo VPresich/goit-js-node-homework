@@ -1,4 +1,5 @@
 import makeTransaction from "./task-1.js";
+
 test("makeTransaction testing ", () => {
   expect(makeTransaction(5, 3000)).toBe(
     "You ordered 5 droids worth 15000 credits!"
