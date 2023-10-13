@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Module 1 task 2</title>
+    <title>Module 2 task 3</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,12 +16,12 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/goit-js-node-homework/assets/page-1-2-bcf32c8f.js"></script>
+    <script type="module" crossorigin src="/goit-js-node-homework/assets/page-2-3-f51e1ec6.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/styles-46c5579a.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/auxiliary-d9d3ef85.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/task-2-8c6d375a.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/task-3-b9dd9918.js">
     <link rel="stylesheet" href="/goit-js-node-homework/assets/styles-e07a2a43.css">
   </head>
+  
   <body>
     <!-- <header class="header">
   <nav class="nav">
@@ -87,54 +87,40 @@
 </header>
 
     <section class="section-layout">
-  <div class="container">
-    <h2 class="visually-hidden">Test of task-2</h2>
+    <div class="container">
+      <h2 class="visually-hidden">Test of Task-2 Module-3</h2>
 
-    <form class="form-shipping-wrapper">
-      <div class="inputs-wrapper">
-        <label class="label-style" for="shipping-country"
-          >Country:
-          <input
-            class="input-style"
-            name="shipping-country"
-            id="shipping-country"
-            type="text"
+      <form class="form-message-wrapper">
+        <div class="inputs-message-wrapper">
+          <label class="label-style" for="spam-message">
+            Example message:
+          </label>
+          <textarea
+            class="textarea-style"
+            name="spam_message"
+            id="spam-message"
+            placeholder="Please enter message"
             required
-          />
+          ></textarea>            
+        </div>
+
+        <label class="label-style-result"
+          >Result:&nbsp;
+          <span class="js-spam-message accent-color"></span>
         </label>
-        <label class="label-style" for="shipping-price"
-          >Price:
-          <input
-            class="input-style"
-            name="shipping-price"
-            id="shipping-price"
-            type="text"
-            required
-          />
-        </label>
-        <label class="label-style" for="shipping-fee"
-          >Delivery Fee:
-          <input
-            class="input-style"
-            name="shipping-fee"
-            id="shipping-fee"
-            type="text"
-            required
-          />
-        </label>
-      </div>
-      <label class="label-style-result">Result:&nbsp;<span class=" accent-color js-shiping-result"></span></label>
-      <div class="buttons-wrapper">
-        <button class="button-styles js-btn-shiping" type="button">
-          Shipping
-        </button>
-        <button class="button-styles js-shiping-clear" type="button">
-          Clear
-        </button>
-      </div>
-    </form>
-  </div>
-</section>
+
+        <div class="buttons-wrapper">
+          <button class="button-styles js-check-massage" type="button">
+            Check message
+          </button>
+          <button class="button-styles js-btn-clear-spam-message" type="button">
+            Clear
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
     
   </body>
+
 </html>

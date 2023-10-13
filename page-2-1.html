@@ -16,10 +16,11 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/goit-js-node-homework/assets/page-2-1-433ea2dd.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/auxiliary-6dc06574.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/task-1-7fd9eb44.js">
-    <link rel="stylesheet" href="/goit-js-node-homework/assets/auxiliary-d6be04b4.css">
+    <script type="module" crossorigin src="/goit-js-node-homework/assets/page-2-1-c6a75e19.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/styles-46c5579a.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/auxiliary-d9d3ef85.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-node-homework/assets/task-1-600b9140.js">
+    <link rel="stylesheet" href="/goit-js-node-homework/assets/styles-e07a2a43.css">
   </head>
   
   <body>
@@ -67,64 +68,79 @@
           >module-2-1</a
         >
       </li>
+      <li class="site-navigation-item">
+        <a class="site-navigation-item-link" href="./page-2-2.html"
+          >module-2-2</a
+        >
+      </li>
+      <li class="site-navigation-item">
+        <a class="site-navigation-item-link" href="./page-2-3.html"
+          >module-2-3</a
+        >
+      </li>
+      <li class="site-navigation-item">
+        <a class="site-navigation-item-link" href="./page-2-4.html"
+          >module-2-4</a
+        >
+      </li>
     </ul>
   </div>
 </header>
 
     <section class="section-layout">
-    <div class="container">
-      <h2 class="visually-hidden">Test of Task-1</h2>
+  <div class="container">
+    <h2 class="visually-hidden">Test of Task-1</h2>
 
-      <form class="form-transaction-wrapper">
-        <div class="inputs-wrapper">
-          <label class="label-style" for="droids-quantity2"
-            >Droids quantity:
-            <input
-              class="input-style"
-              name="droids-quantity2"
-              id="droids-quantity2"
-              type="text"
-              placeholder="Please enter integer number"
-              required
-            />
-          </label>
-          <label class="label-style" for="droid-price2"
-            >Droid price:
-            <input
-              class="input-style"
-              name="droid-price2"
-              id="droid-price2"
-              type="text"
-              placeholder="Please enter number"
-              required
-            />
-          </label>
-        </div>
-
-        <label class="label-style" for="customer-credits"
-          >Customer credits:
+    <form class="form-transaction-wrapper">
+      <div class="inputs-wrapper">
+        <label class="label-style" for="droids-quantity2"
+          >Droids quantity:
           <input
             class="input-style"
-            name="customer-credits"
-            id="customer-credits"
+            name="droids-quantity2"
+            id="droids-quantity2"
+            type="text"
+            placeholder="Please enter integer number"
+            required
+          />
+        </label>
+        <label class="label-style" for="droid-price2"
+          >Droid price:
+          <input
+            class="input-style"
+            name="droid-price2"
+            id="droid-price2"
             type="text"
             placeholder="Please enter number"
             required
           />
         </label>
+      </div>
 
-        <label class="label-style js-result-transaction2">Result: </label>
-        <div class="buttons-wrapper">
-          <button class="button-styles js-make-transaction2" type="button">
-            Make Transaction
-          </button>
-          <button class="button-styles js-btn-clear2" type="button">
-            Clear
-          </button>
-        </div>
-      </form>
-    </div>
-  </section>
+      <label class="label-style" for="customer-credits"
+        >Customer credits:
+        <input
+          class="input-style"
+          name="customer-credits"
+          id="customer-credits"
+          type="text"
+          placeholder="Please enter number"
+          required
+        />
+      </label>
+
+      <label class="label-style-result">Result:&nbsp;<span class="accent-color js-result-transaction2"></span> </label>
+      <div class="buttons-wrapper">
+        <button class="button-styles js-make-transaction2" type="button">
+          Make Transaction
+        </button>
+        <button class="button-styles js-btn-clear2" type="button">
+          Clear
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
     
   </body>
 

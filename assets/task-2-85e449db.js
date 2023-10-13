@@ -1,1 +1,0 @@
-import{i}from"./auxiliary-6dc06574.js";function e(t,n,s){const r=parseFloat(n),o=parseFloat(s);return i(r)?i(o)?`Shipping to ${t} will cost ${r+o} credits`:"Error in deliveryFee":"Error in price"}console.log(e("Australia",120,50));console.log(e("Germany",80,20));console.log(e("Sweden",100,20));export{e as g};

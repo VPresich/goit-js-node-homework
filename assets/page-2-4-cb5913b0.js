@@ -1,0 +1,1 @@
+import"./styles-46c5579a.js";import{g as e}from"./task-4-a5bb4d64.js";const t={lstCountry:document.querySelector("#select-country"),resultLabel:document.querySelector(".js-shipping-cost")};t.lstCountry.addEventListener("change",n);function n(){console.log("Change"),t.resultLabel.textContent=String(e(t.lstCountry.value))}

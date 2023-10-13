@@ -1,0 +1,1 @@
+import{i as r}from"./auxiliary-d9d3ef85.js";function o(i,p,d){const t=parseFloat(i),n=parseFloat(p),e=parseFloat(d);return r(t)?r(n)?r(e)?t+2*n+2*e:"Error in borderWidth":"Error in paddingWidth":"Error in content"}console.log(o("50px","8px","4px"));console.log(o("60px","12px","8.5px"));console.log(o("200px","0px","0px"));export{o as g};
