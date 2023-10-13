@@ -16,7 +16,6 @@ refs.btnClear.addEventListener("click", onBtnClearClick);
 
 function onBtnMakeTransactionClick() {
   refs.resultLabel.textContent =
-    "Result: " +
     makeTransaction2(
       refs.inputQuantity.value,
       refs.inputPrice.value,
@@ -28,5 +27,6 @@ function onBtnClearClick() {
   refs.inputPrice.value = "";
   refs.inputQuantity.value = "";
   refs.inputCustomerCredits.value = "";
-  refs.resultLabel.textContent = "Result: ";
+  refs.resultLabel.textContent = "";
 }
+

@@ -49,3 +49,7 @@ body {
 .accent-color {
   color: var(--iris);
 }
+
+.accent-color-error {
+  color: var(--red);
+}

@@ -5,6 +5,7 @@
 @import url('./base/container.css');
 @import url('./layout/header.css');
 @import url('./layout/module-01.css');
+@import url('./layout/module-02.css');
 
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
