@@ -14,3 +14,8 @@ import './js/module-3/task-3.js';
 import './js/module-4/task-1.js';
 import './js/module-4/task-2.js';
 import './js/module-4/task-3.js';
+
+import './js/module-5/task-1.js';
+import './js/module-5/task-2.js';
+import './js/module-5/task-3.js';
+import './js/module-5/task-4.js';
